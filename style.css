@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color: #00AAFF;
+    text-shadow: 5px 5px 4px black;
+}
+.won{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 5px 4px black;
+
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 42vw;
+    margin: 5rem;
+}
+
+.turn{
+    font-size: 2rem;
+    color: rgb(95, 95, 95);    
+    transition: all 0.4s ease;
+}
+
+.a_turn{
+    font-size: 2.2rem;
+    padding: 0.5rem;
+    background: white;
+    box-shadow: 5px 5px 4px black;
+    border-radius: 0.5rem;
+    color: #00AAFF;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 325px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+}
+
+.game_box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 3.5rem;
+    cursor: pointer;
+    color: #00AAFF;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.active:hover {
+    background: rgb(209, 209, 209);
+    transition: all 0.3s ease;
+}
+
+.won-game {
+    color: #00FF6C;
+    transition: all .03s ease-in;
+}
+
+.g-0 {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.g-1 {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.g-2 {
+    border-bottom: 3px solid black;
+}
+
+.g-3 {
+    border-right: 3px solid black;
+}
+
+.g-4 {
+    border-right: 3px solid black;
+}
+
+.g-6 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.g-7 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.g-8 {
+    border-top: 3px solid black;
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: #00AAFF;
+    box-shadow: 5px 5px 4px black;
+    border-radius: 0.5rem;
+    color:  #c1ecd3;
+    cursor: pointer;
+    transform: translateX(6px);
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+}
